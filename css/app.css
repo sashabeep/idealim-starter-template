@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,600,900&subset=cyrillic');
+
+html,body{
+	background: #fff;
+}
+
+html,body{
+	background: #fff;
+	font-family: Roboto, 'Trebuchet MS', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	min-height: 100vh;
+}
+
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
+	font-family: Roboto, 'Trebuchet MS', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: 900;
+	line-height: 1.2;
+}
+
+button, .button{
+	cursor: pointer
+}
+
+.fwb{
+	font-weight: bold;
+}
+
+.nomb{
+	margin-bottom: 0;
+}
+
+.cbfix{
+	margin-bottom: -1.25rem
+}
+
+.spacer{
+	flex-grow: 100;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+
+.no-js .top-bar {
+  display: none;
+}
+
+@media screen and (min-width: 40em) {
+	.no-js .top-bar {
+		display: block;
+	}
+
+	.no-js .title-bar {
+		display: none;
+	}
+}
+
+.title-bar {
+    background: transparent;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.text-white, .text-white:visited{
+	color: #fff;
+}
+
+.underline, .underline:visited{
+	text-decoration: underline;
+}
+
+.underline:hover{
+	text-decoration: none;
+}
+
+header{
+	background: #e7e7e7;
+}
+
+.formenu{
+	background: #f0f0f0;
+}
+
+.orbit-slide{
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.card{
+	height: 100%;
+}
+
+.card-section-last{
+	-webkit-flex: 0;
+	-moz-flex: 0;
+	-ms-flex: 0;
+	-o-flex: 0;
+	flex: 0;
+	padding-top: 0;
+}
+
+footer{
+	background: #000;
+	color: #fff;
+	padding: 1rem 0;
+}
