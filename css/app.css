@@ -87,6 +87,11 @@ header{
 	background-size: cover;
 }
 
+.orbit-previous, .orbit-next, .orbit-previous:active, .orbit-next:active, .orbit-previous:hover, .orbit-next:hover {
+	color: #fff;
+	background: transparent;
+}
+
 .card{
 	height: 100%;
 }
