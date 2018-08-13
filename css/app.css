@@ -87,7 +87,7 @@ header{
 	background-size: cover;
 }
 
-.orbit-previous, .orbit-next, .orbit-previous:active, .orbit-next:active, .orbit-previous:hover, .orbit-next:hover {
+.orbit-previous, .orbit-next, .orbit-previous:active, .orbit-next:active, .orbit-previous:hover, .orbit-next:hover, .orbit-previous:focus, .orbit-next:focus {
 	color: #fff;
 	background: transparent;
 }
