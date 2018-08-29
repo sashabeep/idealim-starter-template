@@ -54,3 +54,9 @@
 		padding-bottom: 4rem;
 	}
 }
+@media screen and (max-width:1300px){
+	.orbit-slide{
+		padding-left: 2.5rem;
+		padding-right: 2.5rem;
+	}
+}
