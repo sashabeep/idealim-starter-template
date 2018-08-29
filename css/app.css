@@ -85,6 +85,10 @@ header{
 	background: #f0f0f0;
 }
 
+.menu .active > a, .menu a:hover, .menu .is-active > a, .dropdown.menu .is-active > a{
+	/*set color and bg for active and hover menu item*/
+}
+
 .orbit-slide{
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
