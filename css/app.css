@@ -73,6 +73,10 @@ button, .button{
 	text-decoration: none;
 }
 
+.nowr{
+	white-space: nowrap
+}
+
 header{
 	background: #e7e7e7;
 }
