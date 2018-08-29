@@ -61,7 +61,7 @@ button, .button{
     padding-right: 0;
 }
 
-.text-white, .text-white:visited{
+.text-white, .text-white:visited, .text-white a, .text-white a:visited, .text-white a:hover, .text-white a:focus{
 	color: #fff;
 }
 
