@@ -53,8 +53,7 @@ button, .button{
 
 .title-bar {
     background: transparent;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 0;
 }
 
 .text-white, .text-white:visited, .text-white a, .text-white a:visited, .text-white a:hover, .text-white a:focus{
@@ -81,10 +80,17 @@ header{
 	background: #f0f0f0;
 }
 
-/*active and hover style for main menu*/
+/*default main menu link style*/
+.menu-topmenu a,.menu-topmenu a:visited,.menu-topmenu a:active{
+	/*color: #0EAEC8;*/
+}
+
+/*active and hover main menu link style*/
 .menu-topmenu .active > a, .menu-topmenu a:hover, .menu-topmenu .is-active > a, .menu-topmenu.dropdown.menu .is-active > a{
+	/*
 	color: #4FE7FF;
 	background: transparent;
+	*/
 }
 
 /*styles for submenu*/
