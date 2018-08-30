@@ -81,8 +81,27 @@ header{
 	background: #f0f0f0;
 }
 
-.menu .active > a, .menu a:hover, .menu .is-active > a, .dropdown.menu .is-active > a{
-	/*set color and bg for active and hover menu item*/
+/*active and hover style for main menu*/
+.menu-topmenu .active > a, .menu-topmenu a:hover, .menu-topmenu .is-active > a, .menu-topmenu.dropdown.menu .is-active > a{
+	color: #4FE7FF;
+	background: transparent;
+}
+
+/*styles for submenu*/
+.is-dropdown-submenu{
+	/*
+	border-color: #152954;
+	background: #2F538D;
+	*/
+}
+
+/*menu togglers*/
+.menu-topmenu.submenu-toggle::after{
+	/*border-color: #0EAEC8 transparent transparent;*/
+}
+
+.menu-topmenu.dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a::after{
+	/*border-color: #0EAEC8 transparent transparent;*/
 }
 
 .orbit-slide{
