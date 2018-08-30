@@ -4,6 +4,10 @@ html,body{
 	background: #fff;
 	font-family: Roboto, 'Trebuchet MS', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	min-height: 100vh;
+	/* unset weird font smoothing if text render looks bad
+	-webkit-font-smoothing: unset;
+  	-moz-osx-font-smoothing: unset;
+	*/
 }
 
 h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
