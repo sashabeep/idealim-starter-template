@@ -20,8 +20,8 @@ button, .button{
 	cursor: pointer
 }
 
-.fwb{
-	font-weight: bold;
+.fwb, b, strong{
+	font-weight: 600;
 }
 
 .nomb{
