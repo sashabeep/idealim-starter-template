@@ -85,7 +85,7 @@ header{
 }
 
 /*default main menu link style*/
-.menu-topmenu a,.menu-topmenu a:visited,.menu-topmenu a:active{
+.menu-topmenu a, .menu-topmenu a:visited, .menu-topmenu a:active{
 	/*color: #0EAEC8;*/
 }
 
