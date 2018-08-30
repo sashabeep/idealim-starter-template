@@ -96,10 +96,12 @@ header{
 }
 
 /*menu togglers*/
-.menu-topmenu.submenu-toggle::after{
+/*mobile*/
+.menu-topmenu .submenu-toggle::after{
 	/*border-color: #0EAEC8 transparent transparent;*/
 }
 
+/*default*/
 .menu-topmenu.dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a::after{
 	/*border-color: #0EAEC8 transparent transparent;*/
 }
