@@ -64,7 +64,7 @@ button, .button{
     padding: 0;
 }
 
-.text-white, .text-white:visited, .text-white a, .text-white a:visited, .text-white a:hover, .text-white a:focus{
+.text-white, .text-white:visited, .text-white a, .text-white a:visited, .text-white a:hover, .text-white:hover, .text-white a:focus, .text-white:focus{
 	color: #fff;
 }
 
