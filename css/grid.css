@@ -15,6 +15,9 @@
 	header{
 		padding: 1rem 0;
 	}
+	.small-center{
+		text-align: center;
+	}
 }
 @media screen and (min-width:40em){
 	.s-pad{
