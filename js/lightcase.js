@@ -66,7 +66,7 @@
 				mobileMatchExpression: /(iphone|ipod|ipad|android|blackberry|symbian)/,
 				disableShrink: false,
 				fixedRatio: true,
-				shrinkFactor: .75,
+				shrinkFactor: .85,
 				overlayOpacity: .9,
 				slideshow: false,
 				slideshowAutoStart: true,
