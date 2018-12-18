@@ -99,6 +99,19 @@ header{
 	*/
 }
 
+/*first level size*/
+.menu-topmenu>li>a, .menu-topmenu>li>a:visited{
+	/*
+	font-weight: bold;
+	color: #fff;
+	font-size: 18px;
+	*/
+}
+
+.menu-topmenu ul{
+	z-index: 4;
+}
+
 /*styles for submenu*/
 .is-dropdown-submenu{
 	/*
@@ -113,9 +126,14 @@ header{
 	/*border-color: #0EAEC8 transparent transparent;*/
 }
 
-/*default*/
+/*desktop*/
 .menu-topmenu.dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a::after{
 	/*border-color: #0EAEC8 transparent transparent;*/
+}
+
+/*desktop hover*/
+.menu-topmenu.dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent.is-active > a::after {
+	/*border-color: #0180A0 transparent transparent;*/
 }
 
 .orbit-slide{
