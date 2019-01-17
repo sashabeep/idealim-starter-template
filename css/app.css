@@ -137,7 +137,8 @@ header{
 }
 
 /*desktop hover*/
-.menu-topmenu.dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent.is-active > a::after {
+.menu-topmenu.dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent.is-active > a::after,
+.menu-topmenu.dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent.active > a::after {
 	/*border-color: #0180A0 transparent transparent;*/
 }
 
