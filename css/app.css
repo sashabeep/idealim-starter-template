@@ -39,6 +39,10 @@ button, .button{
 	margin-bottom: -1.25rem
 }
 
+.cbfix .cbfix{
+	margin-bottom: -2.5rem;
+}
+
 .spacer{
 	flex-grow: 100;
 	display: -webkit-flex;
