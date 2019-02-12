@@ -31,6 +31,12 @@ button, .button{
 	/*box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.2) inset;*/
 }
 
+/*section form checkbox/radio label*/
+.check-label_text{
+	padding-left: 0.8rem !important;
+	line-height: 1.1;
+}
+
 .fwb, b, strong{
 	font-weight: 600;
 }
