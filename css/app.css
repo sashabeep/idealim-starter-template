@@ -105,6 +105,10 @@ button, .button{
 	white-space: nowrap
 }
 
+.ttu{
+	text-transform: uppercase;
+}
+
 header{
 	background: #e7e7e7;
 }
