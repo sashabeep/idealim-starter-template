@@ -79,5 +79,15 @@ $(document).ready(function () {
 			}
 		}
 	});
+	
+	//outgoing links
+	$('a')
+	.filter('[href^="http"], [href^="//"]')
+	.not('[href*="' + window.location.host + '"]')
+	.attr('rel', 'noopener noreferrer')
+	.attr('target', '_blank');
+	
+	//table overflow
+	$('table').wrap("<div class='overwidth'></div>");
 
 });
