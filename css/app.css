@@ -86,6 +86,10 @@ button, .button{
 	display: flex;
 }
 
+.overwidth{
+	overflow-y: auto;
+}
+
 .no-js .top-bar {
   display: none;
 }
