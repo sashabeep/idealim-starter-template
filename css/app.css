@@ -203,7 +203,7 @@ header{
 	height: 100%;
 }
 
-.card-section-last{
+.card-section-last, .cs-last{
 	-webkit-flex: 0;
 	-moz-flex: 0;
 	-ms-flex: 0;
