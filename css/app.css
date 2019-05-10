@@ -143,7 +143,8 @@ header{
 }
 
 /*active and hover main menu link style*/
-.menu-topmenu .active > a, .menu-topmenu a:hover, .menu-topmenu .is-active > a, .menu-topmenu.dropdown.menu .is-active > a{
+.menu-topmenu .active > a, .menu-topmenu a:hover, .menu-topmenu .is-active > a, .menu-topmenu.dropdown.menu .is-active > a,
+.menu-topmenu .active > a:visited, .menu-topmenu .is-active > a:visited, .menu-topmenu.dropdown.menu .is-active > a:visited{
 	/*
 	color: #4FE7FF;
 	background: transparent;
