@@ -55,6 +55,10 @@ button, .button{
 	color: #666;
 }
 
+.pagination .current{
+	display: inline-block;
+}
+
 /*section form checkbox/radio label*/
 .check-label_text{
 	padding-left: 0.8rem !important;
