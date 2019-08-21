@@ -6,7 +6,10 @@ $(document).ready(function () {
 		showSequenceInfo: false,
 		showCaption: false
 	});
-
+	
+	//masked input phone number
+	$("input[name='phone']").mask('+7(999) 999-99-99');
+	
 	//form submit
 	$(document).on('submit', 'form[data-rel=tolightcase],form[data-rel=lightcase]', function (event) {
 		event.preventDefault();
@@ -75,6 +78,7 @@ $(document).ready(function () {
 		width: 800,
 		onFinish: {
 			baz: function () {
+				$("input[name='phone']").mask('+7(999) 999-99-99');
 				lightcase.resize();
 			}
 		}
