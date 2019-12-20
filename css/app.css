@@ -91,7 +91,7 @@ button, .button{
 }
 
 .overwidth{
-	overflow-y: auto;
+	overflow-x: auto;
 }
 
 .no-js .top-bar {
